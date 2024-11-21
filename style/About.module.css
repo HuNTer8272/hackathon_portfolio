@@ -1,0 +1,26 @@
+
+
+.icon::before{
+    content: '';
+    @apply w-[3.3rem] h-[3.3rem] dark:bg-[#d8d8d8e7] bg-[#b1afafe7] rounded-full absolute   opacity-0 -z-10 isolate ease-out  duration-300
+}
+
+.icon:hover {
+    @apply -translate-y-2
+}
+
+.icon:hover::before{
+    @apply opacity-30
+}
+
+.icon:has(+.icon:hover),
+.icon:hover+.icon{
+    @apply scale-[1.15] -translate-y-1 delay-75
+}
+
+.icon::before:has(+.icon:hover),
+.icon::before:hover+.icon{
+    @apply  opacity-30
+}
+
+

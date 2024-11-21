@@ -1,0 +1,8 @@
+.projectImage{
+    @apply duration-200 ease-out transition-all
+}
+
+.projectImage:hover{
+     @apply scale-[1.08] rotate-[2deg]
+}
+

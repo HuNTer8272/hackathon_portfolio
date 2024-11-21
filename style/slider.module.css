@@ -1,0 +1,48 @@
+.slider {
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        #000 10% 90%,
+        transparent
+    );
+}
+
+.slider .item {
+    @apply w-[var(--width)] h-[var(--height)] absolute left-full flex items-center justify-center overflow-hidden;
+    transition: filter 0.5s;
+    animation: autoRun 10s linear infinite;
+    animation-delay: calc((10s / var(--quantity)) * (var(--position) - 1) - 10s) !important;
+}
+
+@keyframes autoRun {
+    from {
+        left: 100%;
+        z-index: inherit;
+    }
+    to {
+        left: calc(var(--width) * -1);
+        z-index: inherit;
+    }
+}
+
+.slider:hover .item {
+    animation-play-state: paused !important;
+    filter: grayscale(1);
+}
+.slider .item:hover {
+    filter: grayscale(0);
+}
+.slider[reverse="true"] .item {
+    animation: reversePlay 10s linear infinite;
+}
+@keyframes reversePlay {
+    from {
+        left: calc(var(--width) * -1);
+        z-index: inherit;
+    }
+    to {
+        left: 100%;
+        z-index: inherit;
+    }
+}
+    

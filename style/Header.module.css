@@ -1,0 +1,18 @@
+.headerLinks::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+background: linear-gradient(
+        to right,
+        #f29e55,
+        #f7a63a
+    ); /* Corrected to use background instead of background-color */
+}
+
+.headerLinks:hover::after {
+    width: 100%;
+}
