@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import sliderStyle from "@/Style/slider.module.css"
+import sliderStyle from "../style/slider.module.css"
 
 const Slider = ({ items, widht, height, reverse = "false" }) => {
   return (

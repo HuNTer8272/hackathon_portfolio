@@ -23,7 +23,13 @@ import svelte_svg from "@/images/svelte.svg"
 import flask_svg from "@/images/flask.svg"
 import jquery_svg from "@/images/jquery.svg"
 import tailwind_svg from "@/images/tailwind.svg"
+import dischat from "@/images/dischat.jpg"
+import chatroom from "@/images/chatroom.jpg"
+import kshatriya from "@/images/kshatriya.png"
+import fighting_game from "@/images/fighting_game.png"
+import photography_site from "@/images/photography_site.png"
+import quickLink from "@/images/quicklink.jpg"
 
 
-export {logo_golden,logo_white,logo_og,temp_1,temp_2,temp_3,bootstrap_svg,flask_svg,git_svg,css_svg,html_svg,java_svg,javascript_svg,mongodb_svg,nextjs_svg,node_svg,react_svg,shadcn_svg,sql_svg,typescript_svg,python_svg,php_svg,svelte_svg,jquery_svg,tailwind_svg}
+export {logo_golden,dischat,chatroom,kshatriya,photography_site,quickLink, fighting_game,logo_white,logo_og,temp_1,temp_2,temp_3,bootstrap_svg,flask_svg,git_svg,css_svg,html_svg,java_svg,javascript_svg,mongodb_svg,nextjs_svg,node_svg,react_svg,shadcn_svg,sql_svg,typescript_svg,python_svg,php_svg,svelte_svg,jquery_svg,tailwind_svg}
 

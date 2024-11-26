@@ -12,7 +12,7 @@ const AboutUs = () => {
     <div id="about" className="border-t    p-5   dark:border-[#323228]">
        <AboutIcons/>
        <div className="mt-20 px-[14rem] text-light dark:text-[#ffffe3] ">
-          <Reveal>
+        <Reveal>
             <h1 className="mb-5 text-[2.8rem] font-extrabold uppercase font-poppin">About Us</h1>
           </Reveal>
           <Reveal>

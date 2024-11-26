@@ -1,5 +1,6 @@
 import AboutUs from '@/components/AboutUs'
 import Banner from '@/components/Banner'
+import ContactUs from '@/components/ContactUs'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Projects from '@/components/Projects'
@@ -14,6 +15,7 @@ const page = () => {
         <Banner/>
         <AboutUs/>
         <Projects/>
+        <ContactUs/>
         <Footer/>
       </SmoothScroll>
     </div>

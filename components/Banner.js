@@ -1,6 +1,7 @@
 import React from 'react'
 import WaterDrop from './anim/WaterDrop'
 import Reveal from './anim/Reveal'
+import FooterLink from '@/helper/FooterLink'
 
 const Banner = () => {
   return (
@@ -14,7 +15,9 @@ const Banner = () => {
               <p className='text-[1rem]   '>We’re a group of student developers specializing in <span className='font-semibold color-accent'>full-stack and app development</span> 💻📱, building innovative solutions. This website is our group portfolio, showcasing our skills and projects 🚀. Let’s connect and explore tech together! 🤝 </p>
              </Reveal>
              <Reveal padding='0.6rem'>
-              <button className='p-3 px-5 font-semibold dark:text-[#ffffe3] text-gray-100 rounded-full active-color bg-accent'>Contact Us</button>
+              <FooterLink href={"#contact"}>
+               <button className='p-3 px-5 font-semibold dark:text-[#ffffe3] text-gray-100 rounded-full active-color bg-accent'>Contact Us</button>
+              </FooterLink>
              </Reveal>
           </div>
        </div>

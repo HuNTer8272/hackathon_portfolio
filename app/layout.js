@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider  } from "next-themes";
+import { Toaster } from "@/components/ui/toaster"
 
 
 export const metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         >
           {children}
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   );

@@ -23,7 +23,7 @@ const HeaderLinks = ({ href, linkName, svg, HeaderStyle }) => {
   return (
     <span
       onClick={handleClick} 
-      className={`relative flex items-center justify-center space-x-3 cursor-pointer ${HeaderStyle.headerLinks} hover:text-[#09090b] dark:hover:text-white`}
+      className={`relative flex items-center justify-center space-x-2 cursor-pointer ${HeaderStyle.headerLinks} hover:text-[#09090b] dark:hover:text-white`}
     >
       {svg}
       <span>{linkName}</span>
